@@ -47,7 +47,7 @@ fun ModuleInstallationScreen(
             val intent = Intent().apply {
                 setClassName(
                     activity.packageName,
-                    "com.example.dynamicfeature1.DynamicFeature1Activity"
+                    "com.example.ondemandmodule.OnDemandModuleActivity"
                 )
             }
             activity.startActivity(intent)

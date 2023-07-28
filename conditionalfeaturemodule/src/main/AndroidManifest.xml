@@ -9,7 +9,7 @@
         <dist:delivery>
             <dist:install-time>
                 <dist:conditions>
-                    <dist:min-sdk dist:value="32"/>
+                    <dist:min-sdk dist:value="30"/>
                     <!--<dist:max-sdk dist:value="30" />-->
                 </dist:conditions>
                 <!--<dist:conditions>

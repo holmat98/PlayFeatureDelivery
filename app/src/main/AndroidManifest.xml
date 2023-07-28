@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.module4.Module4Activity"
+            android:name=".ui.ondemandmodule2.OnDemandModule2NavigationActivity"
             android:theme="@style/ActivityStyle"
             android:exported="false" />
     </application>

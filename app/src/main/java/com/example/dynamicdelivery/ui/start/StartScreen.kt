@@ -16,7 +16,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.dynamicdelivery.R
-import com.example.dynamicdelivery.ui.module4.Module4Activity
+import com.example.dynamicdelivery.ui.ondemandmodule2.OnDemandModule2NavigationActivity
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -78,7 +78,7 @@ fun StartScreen(
                         .fillMaxWidth()
                         .padding(16.dp),
                     onClick = {
-                        activity.startActivity(Module4Activity.newIntent(activity))
+                        activity.startActivity(OnDemandModule2NavigationActivity.newIntent(activity))
                     }
                 ) {
                     Text(text = stringResource(R.string.go_to_module_4))

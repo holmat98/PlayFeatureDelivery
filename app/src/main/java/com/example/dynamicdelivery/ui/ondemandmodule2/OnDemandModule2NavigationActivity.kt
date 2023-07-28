@@ -1,4 +1,4 @@
-package com.example.dynamicdelivery.ui.module4
+package com.example.dynamicdelivery.ui.ondemandmodule2
 
 import android.content.Context
 import android.content.Intent
@@ -10,7 +10,7 @@ import com.example.dynamicdelivery.managers.LanguageAssistantEntryPoint
 import com.google.android.play.core.splitcompat.SplitCompat
 import dagger.hilt.android.EntryPointAccessors
 
-class Module4Activity : AppCompatActivity() {
+class OnDemandModule2NavigationActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityModule4Binding
 
@@ -32,6 +32,6 @@ class Module4Activity : AppCompatActivity() {
 
     companion object {
         fun newIntent(context: Context): Intent =
-            Intent(context, Module4Activity::class.java)
+            Intent(context, OnDemandModule2NavigationActivity::class.java)
     }
 }

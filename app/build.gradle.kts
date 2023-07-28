@@ -59,10 +59,10 @@ android {
         }
     }
     dynamicFeatures += setOf(
-        ":dynamicfeature1",
+        ":ondemandmodule",
         ":installtimefeaturemodule",
         ":conditionalfeaturemodule",
-        ":dynamicfeature4"
+        ":ondemandmodule2"
     )
 }
 

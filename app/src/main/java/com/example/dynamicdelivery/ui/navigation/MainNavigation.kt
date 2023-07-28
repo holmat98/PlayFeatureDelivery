@@ -85,5 +85,5 @@ object MainNavigation {
         navigate(INSTALL_TIME_MODULE)
 
     private fun NavController.navigateToDynamicModule1Installation() =
-        navigate("$MODULE_INSTALLATION/$MODULE_NAME_ARGUMENT=dynamicfeature1")
+        navigate("$MODULE_INSTALLATION/$MODULE_NAME_ARGUMENT=ondemandmodule")
 }

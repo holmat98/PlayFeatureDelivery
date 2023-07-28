@@ -15,7 +15,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Dynamic Delivery"
 include(":app")
-include(":dynamicfeature1")
+include(":ondemandmodule")
 include(":installtimefeaturemodule")
 include(":conditionalfeaturemodule")
-include(":dynamicfeature4")
+include(":ondemandmodule2")

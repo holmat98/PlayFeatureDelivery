@@ -5,13 +5,13 @@
     <string name="change_language">Changer de langue</string>
     <string name="go_to_module_1">Aller au module 1</string>
     <string name="start_screen">Écran d\'accueil</string>
-    <string name="title_dynamicfeature1">Caractéristique dynamique 1</string>
+    <string name="title_ondemandmodule">Caractéristique dynamique 1</string>
     <string name="title_installtimefeaturemodule">Module de fonctionnalité de temps d\'installation</string>
     <string name="welcome_installation_time">Bienvenue dans le module de temps d\'installation</string>
     <string name="go_to_module_2">Aller au module de temps d\'installation</string>
     <string name="go_to_conditional_module">Aller au module conditionnel</string>
     <string name="title_conditionalfeaturemodule">Module de fonctionnalité conditionnelle</string>
-    <string name="title_dynamicfeature4">Caractéristique dynamique 4</string>
+    <string name="title_ondemandmodule2">Caractéristique dynamique 4</string>
     <string name="go_to_module_4">Aller au module 4</string>
     <string name="button_next">Écran suivant</string>
 </resources>

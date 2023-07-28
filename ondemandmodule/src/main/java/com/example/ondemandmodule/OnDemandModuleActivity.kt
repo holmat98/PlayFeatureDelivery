@@ -1,4 +1,4 @@
-package com.example.dynamicfeature1
+package com.example.ondemandmodule
 
 import android.content.Context
 import android.os.Bundle
@@ -19,7 +19,7 @@ import com.example.dynamicdelivery.ui.theme.DynamicDeliveryTheme
 import dagger.hilt.android.EntryPointAccessors
 import com.example.dynamicdelivery.R
 
-class DynamicFeature1Activity : ComponentActivity() {
+class OnDemandModuleActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class DynamicFeature1Activity : ComponentActivity() {
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = stringResource(R.string.title_dynamicfeature1),
+                        text = stringResource(R.string.title_ondemandmodule),
                         color = MaterialTheme.colorScheme.primary,
                         fontSize = 25.sp
                     )

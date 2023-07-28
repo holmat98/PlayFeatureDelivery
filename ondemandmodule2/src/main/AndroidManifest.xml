@@ -4,7 +4,7 @@
 
     <dist:module
         dist:instant="false"
-        dist:title="@string/title_dynamicfeature4">
+        dist:title="@string/title_ondemandmodule2">
         <dist:delivery>
             <dist:on-demand />
         </dist:delivery>

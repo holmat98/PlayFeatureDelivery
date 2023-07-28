@@ -1,9 +1,11 @@
 plugins {
     id("com.android.dynamic-feature")
     id("org.jetbrains.kotlin.android")
+    kotlin ("kapt")
+    id ("com.google.dagger.hilt.android")
 }
 android {
-    namespace = "com.example.dynamicfeature4"
+    namespace = "com.example.ondemandmodule"
     compileSdk = 33
 
     defaultConfig {
@@ -29,15 +31,9 @@ android {
     }
     buildFeatures {
         compose = true
-        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.5"
-    }
-    packagingOptions {
-        resources {
-            excludes.add("/META-INF/{AL2.0,LGPL2.1}")
-        }
     }
 }
 
@@ -53,7 +49,8 @@ dependencies {
     implementation ("androidx.compose.material3:material3:1.2.0-alpha02")
     implementation ("androidx.navigation:navigation-compose:2.6.0")
 
-    // Navigation
-    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
-    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.44")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    kapt("com.google.dagger:hilt-android-compiler:2.44")
 }

@@ -5,7 +5,7 @@
 
     <dist:module
         dist:instant="false"
-        dist:title="@string/title_dynamicfeature1">
+        dist:title="@string/title_ondemandmodule">
         <dist:delivery>
             <dist:on-demand />
         </dist:delivery>
@@ -14,7 +14,7 @@
 
     <application>
         <activity
-            android:name="com.example.dynamicfeature1.DynamicFeature1Activity"
+            android:name="com.example.ondemandmodule.OnDemandModuleActivity"
             android:exported="false"
             tools:ignore="AppLinkUrlError">
             <intent-filter>

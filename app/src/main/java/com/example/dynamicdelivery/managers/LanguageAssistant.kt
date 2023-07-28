@@ -14,7 +14,6 @@ interface LanguageAssistantEntryPoint {
     val languageAssistant: LanguageAssistant
 }
 
-
 interface LanguageAssistant {
 
     var language: Locale
