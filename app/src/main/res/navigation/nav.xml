@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:progressDestination="@+id/progressFragment"
+    app:startDestination="@id/screen1Fragment">
+
+    <fragment
+        android:id="@+id/screen1Fragment"
+        android:name="com.example.dynamicdelivery.ui.module4.Screen1Fragment">
+        <action
+            android:id="@+id/action_screen1Fragment_to_screen2Fragment"
+            app:destination="@id/screen2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/screen2Fragment"
+        android:name="com.example.dynamicfeature4.Screen2Fragment"
+        app:moduleName="dynamicfeature4" />
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.example.dynamicdelivery.ui.module4.ProgressFragment"
+        android:label="ProgressFragment" />
+</navigation>

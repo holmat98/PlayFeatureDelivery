@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dynamic Delivery</string>
+    <string name="button_resource">Confirm</string>
+    <string name="change_language">Change language</string>
+    <string name="go_to_module_1">Go to module 1</string>
+    <string name="go_to_module_2">Go to install-time module</string>
+    <string name="go_to_module_4">Go to module 4</string>
+    <string name="start_screen">Home Screen</string>
+    <string name="title_dynamicfeature1">Dynamic Feature 1</string>
+    <string name="title_installtimefeaturemodule">Install time feature module</string>
+    <string name="welcome_installation_time">Welcome to install time module</string>
+    <string name="title_conditionalfeaturemodule">Conditional feature module</string>
+    <string name="go_to_conditional_module">Go to conditional module</string>
+    <string name="title_dynamicfeature4">Dynamic feature 4</string>
+    <string name="button_next">Next screen</string>
+</resources>

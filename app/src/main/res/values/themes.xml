@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DynamicDelivery" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="ActivityStyle" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#a83900</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">#77574c</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="colorSurface">#fffbff</item>
+        <item name="colorOnSurface">#201a18</item>
+
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
